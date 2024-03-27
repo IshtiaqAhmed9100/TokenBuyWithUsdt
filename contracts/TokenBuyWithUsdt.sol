@@ -15,7 +15,7 @@ contract TokenBuyWithUsdt is Ownable, ERC20 {
         address _usdtTokenAddress,
         uint256 _ethPrice,
         uint256 _usdtPrice
-    ) Ownable(msg.sender) ERC20("NFTUSDT", "UNF") {
+    ) Ownable(msg.sender) ERC20("TokenUSDT", "TUS") {
         usdtTokenAddress = _usdtTokenAddress;
         ethPrice = _ethPrice;
         usdtPrice = _usdtPrice;
